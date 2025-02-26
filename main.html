@@ -1,16 +1,50 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Detail</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .movie-container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            background: #2c2c2c;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+        .moviePic {
+            width: 200px;
+            height: auto;
+            opacity: 0.9;
+            border-radius: 10px;
+        }
+        .movieDetail {
+            position: relative;
+            top: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.5;
+            color: #f0f0f0;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="movie-container">
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYvkGcivuxMBjEZuy_0dytvd6N5JD9jmR-L-ME_08uV8bZ6rph" alt="Movie Poster" class="moviePic">
+        <p class="movieDetail">Unravel the mystery of a city in middle U.S.A. that imprisons everyone who enters. As the residents struggle to maintain a sense of normality and seek a way out, they must also survive the threats of the surrounding forest.</p>
+    </div>
 </body>
-
 </html>
